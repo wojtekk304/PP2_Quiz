@@ -82,3 +82,12 @@ body {
         border-width: 10px;
         border-style: double;
     }
+
+    .correct{
+        background: rgb(61, 179, 61);
+    }
+    
+    .incorrect{
+        background: rgb(141, 27, 27);
+    }
+    
