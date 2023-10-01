@@ -43,3 +43,27 @@ body {
     .bleach_quiz h2{
         font-size: 25px;
     }
+
+    .ans_btn{
+        font-size: 15px;
+        background:  #fff;
+        color: #222;
+        width: 100%;
+        border: 1px solid #222;
+        border-width: 10px;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-style: double;
+    }
+    
+    .ans_btn:hover:not([disabled]){
+        background: #474949;
+        color: #fff;
+    }
+    
+    .ans_btn:disabled{
+        cursor: no-drop;
+    }
