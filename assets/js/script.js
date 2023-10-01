@@ -183,3 +183,95 @@ const bleach_questions_medium = [
     }
 ];
 
+const bleach_questions_hard = [
+    {
+        question: "What's the full name of the captain commander?",
+        answears: [
+            {text: "Kurotsuchi Mayuri", correct: false},
+            {text: "Ukitake Juushiro", correct: false},
+            {text: "Yamamoto Genryuusai Shigekuni", correct: true},
+            {text: "Aizen Sousuke", correct: false}
+        ]
+    },
+    {
+        question: "What is the name of Kuchiki Byakuya's grandfather?",
+        answears: [
+            {text: "Kuchiki Ginrei", correct: true},
+            {text: "Kuchiki Soujun", correct: false},
+            {text: "Kuchiki Kouga", correct: false},
+            {text: "Kuchiki Kaien", correct: false}
+        ]
+    },
+    {
+        question: "What is the name of Sasabike Chojurou's zanpakutou (1st Squad's vice captain)?",
+        answears: [
+            {text: "Itegumo", correct: false},
+            {text: "Hisagomaru", correct: false},
+            {text: "Minazuki", correct: false},
+            {text: "Gonryoomaru", correct: true}
+        ]
+    },
+    {
+        question: "Who created the research bureau?",
+        answears: [
+            {text: "Kurotsuchi Nemu", correct: false},
+            {text: "Urahara Kisuke", correct: true},
+            {text: "Akon", correct: false},
+            {text: "Kurotsuchi Mayuri", correct: false}
+        ]
+    },
+    {
+        question: "Who is Hisagi Shuuhei often seen with?",
+        answears: [
+            {text: "Kira Izuru", correct: true},
+            {text: "Matsumoto Rangiku", correct: false},
+            {text: "Abarai Renji", correct: false},
+            {text: "Iba Tetzusaemon", correct: false}
+        ]
+    },
+    {
+        question: "What is the name of the previous 5th Squad captain?",
+        answears: [
+            {text: "Muguruma Kensei", correct: false},
+            {text: "Hirako Shinji", correct: true},
+            {text: "Aikawa Love", correct: false},
+            {text: "Rojuro Otoribashi ''Rose''", correct: false}
+        ]
+    },
+    {
+        question: "Which one of these captains turns out to be a good guy, after defecting to the Soul Society?",
+        answears: [
+            {text: "Aizen Sousuke", correct: false},
+            {text: "Kuchiki Byakuya", correct: false},
+            {text: "Tousen Kaname", correct: false},
+            {text: "Ichimaru Gin", correct: true}
+        ]
+    },
+    {
+        question: "What is Matsumoto Rangiku no stranger to?",
+        answears: [
+            {text: "Sake (alcohol)", correct: true},
+            {text: "Dumplings", correct: false},
+            {text: "Sweets", correct: false},
+            {text: "Soda", correct: false}
+        ]
+    },
+    {
+        question: "What is the first line we hear Abarai Renji say?",
+        answears: [
+            {text: "\"We finally found you, Kuchiki Rukia\"", correct: true},
+            {text: "\"Captain, leave it to me\"", correct: false},
+            {text: "\"You're coming with us Rukia\"", correct: false},
+            {text: "\"Howl, Zabimaru!\"", correct: false}
+        ]
+    },
+    {
+        question: "What is the name of the shinigami that came to the real world to check on Kuchiki Rukia?",
+        answears: [
+            {text: "Kurumadani Zennosuke", correct: false},
+            {text: "Saidou Eikichirou", correct: true},
+            {text: "Ichinose Maki", correct: false},
+            {text: "Rikichi", correct: false}
+        ]
+    }
+];
