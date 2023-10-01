@@ -283,3 +283,41 @@ const welcomeText = document.getElementById("welcome_text");
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+function startQuiz(){
+    resetState();
+    currentQuestionIndex = 0;
+    score = 0;
+    welcomeText.innerHTML = "Welcome to Bleach Quiz!"
+    nextButton.innerHTML = "Next";
+    questionElement.innerHTML = "Please select Your Trivia!";
+    const button = document.createElement("button");
+    button.innerHTML = "Test Your Knowledge Trivia";
+    button.classList.add("ans_btn");
+    const button2 = document.createElement("button");
+    button2.innerHTML = "Hollows Trivia";
+    button2.classList.add("ans_btn");
+    const button3 = document.createElement("button");
+    button3.innerHTML = "Gotei 13 Squad Trivia";
+    button3.classList.add("ans_btn");
+    answearButtons.appendChild(button);
+    answearButtons.appendChild(button2);
+    answearButtons.appendChild(button3);
+    button.addEventListener("click", selectDifficulty);
+    button2.addEventListener("click", selectDifficulty);
+    button3.addEventListener("click", selectDifficulty);
+}
+
+function selectDifficulty(e){
+    const selectButton = e.target;
+    if(selectButton.innerHTML === "Test Your Knowledge Trivia"){
+        bleach_questions = bleach_questions_easy;
+        showQuestion();
+    } else if(selectButton.innerHTML === "Hollows Trivia"){
+        bleach_questions = bleach_questions_medium;
+        showQuestion();
+    } else {
+        bleach_questions = bleach_questions_hard;
+        showQuestion();
+    }
+}
