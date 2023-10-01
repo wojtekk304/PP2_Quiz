@@ -393,3 +393,5 @@ function showScore(){
     nextButton.innerHTML = "Play Again.";
     nextButton.style.display = "block";
 }
+
+startQuiz();
