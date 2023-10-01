@@ -377,3 +377,19 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 })
+
+function handleNextButton(){
+    currentQuestionIndex ++;
+    if(currentQuestionIndex < bleach_questions.length){
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${bleach_questions.length}!`;
+    nextButton.innerHTML = "Play Again.";
+    nextButton.style.display = "block";
+}
