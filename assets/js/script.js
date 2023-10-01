@@ -351,3 +351,29 @@ function resetState(){
         answearButtons.removeChild(answearButtons.firstChild);
     }
 }
+
+function selectAnswear(e){
+    const selectButton = e.target;
+    const isCorrect = selectButton.dataset.correct === "true";
+    if(isCorrect){
+        selectButton.classList.add("correct");
+        score++;
+    } else {
+        selectButton.classList.add("incorrect");
+    }
+    Array.from(answearButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
+}
+
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < bleach_questions.length){
+        handleNextButton();
+    } else{
+        startQuiz();
+    }
+})
