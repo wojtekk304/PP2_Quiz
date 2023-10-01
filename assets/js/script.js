@@ -91,3 +91,95 @@ const bleach_questions_easy = [
         ]
     }
 ];
+
+const bleach_questions_medium = [
+    {
+        question: "Which of these is the lowest level of a Menos?",
+        answears: [
+            {text: "Vasto Lorde", correct: false},
+            {text: "Gillian", correct: true},
+            {text: "Adjuchas", correct: false},
+            {text: "Arrancar", correct: false}
+        ]
+    },
+    {
+        question: "Who is known as the 'Primera Espada'?",
+        answears: [
+            {text: "Yammy Llargo", correct: false},
+            {text: "Coyote Starrk", correct: true},
+            {text: "Ulquiorra Cifer", correct: false},
+            {text: "Aizen Sousuke", correct: false}
+        ]
+    },
+    {
+        question: "Who's release command is \"Pray\"?",
+        answears: [
+            {text: "Rose Otoribashi", correct: false},
+            {text: "Nnoitra Jiruga", correct: true},
+            {text: "Szayel Aporro Granz", correct: false},
+            {text: "Zommari Leroux", correct: false}
+        ]
+    },
+    {
+        question: "Which of the following characters gained hollow powers through his own free will?",
+        answears: [
+            {text: "Hirako Shinji", correct: false},
+            {text: "Coyote Starrk", correct: false},
+            {text: "Kurosaki Ichigo", correct: false},
+            {text: "Tousen Kaname", correct: true}
+        ]
+    },
+    {
+        question: "Which of the following characters is not one of Grimmjow's Fraccion?",
+        answears: [
+            {text: "Il Forte Granz", correct: false},
+            {text: "Shawlong Kufang", correct: false},
+            {text: "D-Roy Rinker", correct: false},
+            {text: "Ggio Vega", correct: true}
+        ]
+    },
+    {
+        question: "Which is the only Espada revealed to have a second release?",
+        answears: [
+            {text: "Grimmjow Jaegarjaques", correct: false},
+            {text: "Ulquiorra Cifer", correct: true},
+            {text: "Nnoitra Jiruga", correct: false},
+            {text: "None of them, they each only have one release", correct: false}
+        ]
+    },
+    {
+        question: "Findor Carrias and Avirama Redder are the Fraccion of which Espada?",
+        answears: [
+            {text: "Six", correct: false},
+            {text: "Eight", correct: false},
+            {text: "Three", correct: false},
+            {text: "Two", correct: true}
+        ]
+    },
+    {
+        question: "All of the espada and their fraccion are Vasto Lorde Arrancar.",
+        answears: [
+            {text: "True", correct: false},
+            {text: "False", correct: true}
+        ]
+    },
+    {
+        question: "Who is the first Arrancar Ichigo encounters?",
+        answears: [
+            {text: "Yammy Llargo", correct: true},
+            {text: "Grimmjow Jaegarjaques", correct: false},
+            {text: "Grand Fisher", correct: false},
+            {text: "Ulquiorra Cifer", correct: false}
+        ]
+    },
+    {
+        question: "Who kills the third Espada?",
+        answears: [
+            {text: "Hiyori", correct: false},
+            {text: "Toushirou", correct: false},
+            {text: "Aizen", correct: true},
+            {text: "Ichigo", correct: false}
+        ]
+    }
+];
+
