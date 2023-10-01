@@ -321,3 +321,33 @@ function selectDifficulty(e){
         showQuestion();
     }
 }
+
+function showQuestion(){
+    
+    resetState();
+
+    let currentQuestion = bleach_questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+
+    welcomeText.innerHTML = "Question: " + questionNo + " / " + bleach_questions.length;
+    
+    questionElement.innerHTML = currentQuestion.question;
+    
+    currentQuestion.answears.forEach(answears => {
+        const button = document.createElement("button");
+        button.innerHTML = answears.text;
+        button.classList.add("ans_btn");
+        answearButtons.appendChild(button);
+        if(answears.correct){
+            button.dataset.correct = answears.correct;
+        }
+        button.addEventListener("click", selectAnswear);
+    });
+}
+
+function resetState(){
+    nextButton.style.display = "none";
+    while(answearButtons.firstChild){
+        answearButtons.removeChild(answearButtons.firstChild);
+    }
+}
