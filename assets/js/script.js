@@ -275,3 +275,11 @@ const bleach_questions_hard = [
         ]
     }
 ];
+
+const questionElement = document.getElementById("bleach_questions");
+const answearButtons = document.getElementById("answear_btns");
+const nextButton = document.getElementById("next_btn");
+const welcomeText = document.getElementById("welcome_text");
+
+let currentQuestionIndex = 0;
+let score = 0;
