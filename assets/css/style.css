@@ -67,3 +67,18 @@ body {
     .ans_btn:disabled{
         cursor: no-drop;
     }
+
+    #next_btn{
+        background: #2b7cff;
+        color: #fff;
+        font-weight: 500;
+        width: 150px;
+        font-size: 15px;
+        padding: 10px;
+        margin: 20px auto 0;
+        cursor: pointer;
+        display: none;
+        border: 1px solid #222;
+        border-width: 10px;
+        border-style: double;
+    }
